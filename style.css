@@ -1,0 +1,43 @@
+body,h1,h2,p{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+header{
+    background-color: #333;
+    color:#fff;
+    text-align: center;
+    padding:2rem;
+
+}
+main{
+    padding:4rem;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.photo{
+    flex:1.0;
+    padding: 0 2rem;
+    
+    
+    
+}
+.photo img{
+    height: 300px;
+    margin-left: 360px;
+}
+footer{
+    background:#333;
+    color: azure;
+    padding: 30px;
+    text-align: center;
+    
+}
